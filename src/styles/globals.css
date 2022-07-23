@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply h-full bg-gray-100;
+  }
+
+  body {
+    @apply h-full bg-black;
+  }
+}
+
+input[type='email']:disabled {
+  @apply bg-gray-200;
+}
+
+.bg-gradient {
+  background: linear-gradient(258.94deg, #EAB300 31.81%, #EA8900 100%);
+}
+
+.border-gradient {
+  background: linear-gradient(black 0 0) padding-box, linear-gradient(to bottom, black, #EA8900) border-box;
+  border: 1px solid transparent;
+}

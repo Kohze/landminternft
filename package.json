@@ -1,0 +1,58 @@
+{
+  "name": "vbs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.8.4",
+    "@deck.gl/react": "^8.8.4",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.5",
+    "@nebula.gl/layers": "^1.0.3",
+    "@nebula.gl/overlays": "^1.0.3",
+    "@reduxjs/toolkit": "^1.7.2",
+    "@tailwindcss/forms": "^0.4.0",
+    "axios": "^0.26.0",
+    "classnames": "^2.3.1",
+    "d3-scale": "^4.0.2",
+    "deck.gl": "^8.8.4",
+    "firebase": "^9.6.6",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "mapbox-gl": "^2.9.2",
+    "nebula.gl": "^1.0.3",
+    "next": "12.1.0",
+    "prop-types": "^15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-lottie": "^1.2.3",
+    "react-map-gl": "^7.0.18",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "relysia": "^1.0.6",
+    "sharp": "^0.30.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.0.10",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "lint-staged": ">=10",
+    "postcss": "^8.4.6",
+    "postcss-nested": "^5.0.6",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.23",
+    "url-loader": "^4.1.1"
+  },
+  "lint-staged": {
+    "*.{js,css}": "prettier --write"
+  }
+}
