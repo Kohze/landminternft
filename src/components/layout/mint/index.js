@@ -29,7 +29,7 @@ function Images({ setSelectedIndex }) {
 					className="relative transition-all hover:scale-105"
 					onClick={() => setSelectedIndex(index)}
 				>
-					<div className="group block w-full aspect-square rounded-lg focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-yellow-100 focus-within:ring-yellow-500 overflow-hidden">
+					<div className="group block w-full aspect-square rounded-lg focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-green-100 focus-within:ring-green-500 overflow-hidden">
 						<img
 							src={file.source}
 							alt=""
@@ -47,7 +47,7 @@ function Images({ setSelectedIndex }) {
 }
 function Preview({ src, name, description, supply }) {
 	return (
-		<div className="p-4 rounded-2xl border-gradient">
+		<div className="p-4 rounded-2xl">
 			<img src={src} className="w-full aspect-square mb-4" />
 			<h2 className="text-white text-lg font-bold">{name}</h2>
 			<p className="text-white text mt-5">{description}</p>
@@ -96,7 +96,7 @@ const Mint = () => {
 				symbol: `${Math.random().toString(36).substring(2, 7)}`,
 				description: description,
 				image: file.source,
-				tokenSupply: parseInt(supply) || 1,
+				tokenSupply: 1,
 				satsPerToken: 1,
 				splitable: false,
 				properties: {
