@@ -7,6 +7,14 @@ import RelysiaSDK from 'relysia';
 import { TailSpin } from 'react-loader-spinner';
 import MintComplete from '@/components/elements/modals/MintComplete';
 
+const files = [
+	{
+		title: 'CityMap',
+		source: 'https://i.imgur.com/nDxl1yI.jpg',
+    bcat: '34jk3k4j3k4jk34kj3jk',
+		name: 'CityMap'
+	},
+];
 
   
 function Images({ setSelectedIndex }) {
