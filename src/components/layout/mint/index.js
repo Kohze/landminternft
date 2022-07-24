@@ -6,16 +6,7 @@ import { MA, SE, SERVICE_ID } from '@/config/relysiaApi';
 import RelysiaSDK from 'relysia';
 import { TailSpin } from 'react-loader-spinner';
 import MintComplete from '@/components/elements/modals/MintComplete';
-import AppMap from './map'
 
-const files = [
-	{
-		title: 'CityMap',
-		source: 'https://i.imgur.com/nDxl1yI.jpg',
-    bcat: '34jk3k4j3k4jk34kj3jk',
-		name: 'CityMap'
-	},
-];
 
   
 function Images({ setSelectedIndex }) {
